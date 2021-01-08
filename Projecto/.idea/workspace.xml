@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aaf98f4-91c9-4e8a-abae-989434670fbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Biestable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Verde.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Semaforo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Biestable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Biestable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Estado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Estado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Verde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Verde.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +61,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1610125145387">
+    <state x="765" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1610125840356">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="765" y="244" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1610125145387" />
+    <state x="765" y="244" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1610125840356" />
     <state x="690" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610124863461">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

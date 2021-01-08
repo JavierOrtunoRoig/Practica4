@@ -1,3 +1,5 @@
+package Ejercicio2.a;
+
 public class Verde extends Estado {
 
     @Override
@@ -8,5 +10,10 @@ public class Verde extends Estado {
     @Override
     public void cerrar(Biestable biestable) {
         biestable.setEstado(new Rojo());
+    }
+
+    @Override
+    public void estado(Biestable biestable) {
+        System.out.println("Abierto");
     }
 }

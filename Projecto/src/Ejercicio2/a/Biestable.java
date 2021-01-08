@@ -1,8 +1,11 @@
+package Ejercicio2.a;
+
 public class Biestable {
 
     Estado estado;
 
-    public Biestable(){
+    public Biestable() {
+        this.estado = new Rojo();
     }
 
     public void abrir() {
@@ -13,11 +16,11 @@ public class Biestable {
         estado.cerrar(this);
     }
 
-    public void setEstado(Estado estado) {
+    protected void setEstado(Estado estado) {
         this.estado = estado;
     }
 
-    public Estado getEstado() {
-        return estado;
+    public void estado() {
+        this.estado.estado(this);
     }
 }
