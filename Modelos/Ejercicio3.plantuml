@@ -1,0 +1,18 @@
+@startuml Ejercicio 3
+class Priority <<DataType>>
+class Email {
+    - from : String
+    - Subject : String
+    - data : Date
+    - priority : Priority
+    - text : String
+}
+
+class Mailbox {
+    + show() : void
+    - sort() : void
+    - before() : void
+}
+
+Mailbox o-- "0..* +email" Email
+@enduml
