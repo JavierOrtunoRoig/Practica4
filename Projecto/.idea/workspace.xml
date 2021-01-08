@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aaf98f4-91c9-4e8a-abae-989434670fbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio2/b/Amarillo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio2/b/Biestable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio2/b/Buffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio2/b/Estado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio2/b/Rojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio2/b/Triestable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio2/b/Verde.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Biestable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Biestable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Estado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Estado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Verde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Verde.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +37,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Ejercicio2/b" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Universidad\3 - Anualidad\Modelado y Diseño de Software\Prácticas\Práctica 4\Projecto\src\Ejercicio2\b" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -61,10 +70,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1610125840356">
+    <state x="765" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1610127830439">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="765" y="244" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1610125840356" />
+    <state x="765" y="244" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1610127830439" />
     <state x="690" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610124863461">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -73,5 +82,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="601" y="265" width="700" height="530" key="recent.locations.popup/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1610125235008" />
+    <state x="623" y="235" key="search.everywhere.popup" timestamp="1610127082130">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" key="search.everywhere.popup/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1610127082130" />
   </component>
 </project>
