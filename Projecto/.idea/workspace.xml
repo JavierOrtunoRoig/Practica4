@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aaf98f4-91c9-4e8a-abae-989434670fbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio2/b/Amarillo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio2/b/Biestable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio2/b/Buffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio2/b/Estado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio2/b/Rojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio2/b/Triestable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio2/b/Verde.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio2/c/Amarillo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio2/c/Biestable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio2/c/Buffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio2/c/Estado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio2/c/Rojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio2/c/Triestable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio2/c/Verde.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio2/b/Biestable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio2/b/Biestable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +38,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Ejercicio2/b" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Ejercicio2/c" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Universidad\3 - Anualidad\Modelado y Diseño de Software\Prácticas\Práctica 4\Projecto\src\Ejercicio2\c" />
       <recent name="D:\Universidad\3 - Anualidad\Modelado y Diseño de Software\Prácticas\Práctica 4\Projecto\src\Ejercicio2\b" />
     </key>
   </component>
@@ -78,6 +80,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1610124863461" />
+    <state x="636" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1610197889014">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="636" y="365" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1610197889014" />
     <state x="601" y="265" width="700" height="530" key="recent.locations.popup" timestamp="1610125235008">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
