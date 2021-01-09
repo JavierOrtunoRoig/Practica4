@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aaf98f4-91c9-4e8a-abae-989434670fbe" name="Default Changelist" comment="" />
+    <list default="true" id="3aaf98f4-91c9-4e8a-abae-989434670fbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio3/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio3/Mailbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio3/Ordenacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio3/OrdenacionDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio3/OrdenacionFrom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio3/OrdenacionPriority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio3/OrdenacionSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio3/Priority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +77,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="765" y="244" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1610127830439" />
+    <state x="620" y="305" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1610219221184">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="620" y="305" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1610219221184" />
     <state x="690" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610124863461">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
