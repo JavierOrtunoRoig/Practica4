@@ -3,7 +3,11 @@ package Ejercicio2.b;
 public class Rojo extends Estado {
     @Override
     public void abrir(Buffer buffer) {
-        buffer.setEstado(new Verde());
+        if (buffer instanceof Biestable) {
+            buffer.setEstado(new Verde());
+        } else {
+            buffer.setEstado(new Amarillo());
+        }
     }
 
     @Override
