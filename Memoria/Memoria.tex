@@ -1,0 +1,426 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{float}
+\usepackage{lmodern,textcomp}
+\usepackage{enumitem}
+\usepackage[official]{eurosym}
+
+\author{Javier Ortuño Roig}
+\title{Modelado y Diseño de Software}
+\pagestyle{headings}
+
+\begin{document}
+
+\begin{titlepage}
+\centering
+{\bfseries\LARGE Universidad De Málaga \par}
+\vspace{0.5cm}
+{\scshape\Large Escuela Superior de Ingeniería Informática  \par}
+\vspace{0.5cm}
+{\scshape\Large Ingeniería de Software  \par}
+\vspace{3cm}
+{\scshape\Huge Práctica 4 \\ Patrones de Diseño \par}
+\vspace{1.5cm}
+{\scshape\Large Modelado y Diseño de Software \par}
+\vspace{3cm}
+{\Large \textbf{Grupo A3} \par}
+{\Large Arjona Jiménez, Francisco de Paula \par}
+{\Large Castillo Berná, David \par}
+{\Large Ortuño Roig, Javier \par}
+{\Large Ramet Espinosa, Alejandro \par}
+{\Large Velasco López, Cristhian \par}
+\vfill
+{\Large \today \par}
+\end{titlepage}
+
+\tableofcontents
+
+\newpage
+
+\section{Ejercicio 1}
+\subsection{Apartado a}
+
+Java no dispone de mecanismos de exportación como tal, para la restricción de acceso de las diferentes clases a sus operaciones recurre a la visibilidad de los paquetes, (public, private, package, protected). Con esto una clase externa puede acceder tan solo a las operaciones públicas. La visibilidad protected indica que tan solo la misma clases y sus hijas pueden utilizarla y por último las operaciones private tan solo se pueden llamar en operaciones de la misma clase. 
+
+	En eiffel al añadir ``feature'' podemos decir quienes podrán utilizar este método, con esto conseguimos una mayor simplicidad ya que al indicar directamente quienes pueden utilizarlo no tenemos que ir buscando si la clase exterior puede acceder o no a las operaciones de la clase inicial.
+
+
+
+\subsection{Apartado b}
+
+\subsubsection{Explicación textual}
+
+El patrón que vamos a utilizar para resolver este ejercicio es el patrón estructural Proxy. Hemos utilizado este patrón ya que por propia definición se utiliza para el control de acceso al objeto principal. Es decir, la clase proxy indicará si una clase externa puede utilizar las operaciones de la clase principal o no. 
+	
+Al realizar esta implementación podremos observar que tenemos un total control de las clases, pero comparado con eiffel es más tedioso, ya que en eiffel con un comando controlamos todo, mientras que en java necesitamos una clase proxy que lo controle.
+
+\subsubsection{Modelo}
+
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1.4\textwidth]{images/modelo1.png}}%
+\end{figure}
+
+
+
+\subsubsection{Código}
+
+Primero daremos una descripción y a continuación habrá imágenes con el código.
+
+	Las clases A,B y C, son los tres tipos de clientes que pueden acceder a la clase X, que es la clase que realmente aporta los servicios. La clase Cliente tan solo sirve para indicar que las clases A, B y C son sus hijas para no tener código repetido.
+
+	Como hemos indicado anteriormente a la clase Proxy le llega un cliente del tipo objeto, donde nosotros comprobamos de qué tipo es para saber si puede acceder a la operación de X que ha solicitado.
+	
+	Por último X y Proxy son hijas de la interfaz Servicio. En esta interfaz es la que indica que servicios aporta el proxy. La interfaz Servicio es un objeto imaginario, y la clase X es el objeto real, y el Proxy tiene la función de crear un objeto real si el cliente puede acceder a los servicios que solicita en la interfaz.
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/1.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/2.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/3.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=0.6\textwidth]{images/4.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=0.6\textwidth]{images/5.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=0.6\textwidth]{images/6.png}}%
+\end{figure}
+
+
+
+\section{Ejercicio 2}
+\subsection{Apartado a}
+
+\subsubsection{Explicación textual}
+
+En este apartado vamos a utilizar el patrón de diseño ``Estado''. Esto se debe a nuestra necesidad de querer alterar el comportamiento de la clase ``Biestable'' según el estado en el que se encuentre.
+
+Concretamente, deseamos dos estados para el mismo, ``Rojo'' y ``Verde''. Ambos se implementarán como subclases de una clase abstracta ``Estado'', que contendrá los métodos propios de la clase ``Biestable'', pues queremos que según el estado en el que se encuentre, actúe de una manera u otra.
+
+Por lo tanto, nuestra clase ``Biestable'' contendrá una instancia de ``Estado'', que podrá ser o ``Rojo'' o ``Verde''.
+
+En cuanto a los métodos del biestable:
+
+\begin{itemize}
+\item abrir():
+
+	\begin{itemize}
+	\item Estado ``Rojo'': permitirá a un ``Biestable'' pasar de un estado ``Rojo'' a ``Verde''.
+	\item Estado ``Verde'': devolverá un mensaje de error.
+	\end{itemize}
+	
+\item cerrar():
+
+	\begin{itemize}
+	\item Estado ``Rojo'': devolverá un mensaje de error.
+	\item Estado ``Verde'':  permitirá a un ``Biestable'' pasar de un estado ``Verde'' a ``Rojo''.
+
+	\end{itemize}
+	
+\item estado() : devolverá un string correspondiente al estado en el que me encuentro.
+\end{itemize}
+
+
+
+\subsubsection{Modelo}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1.4\textwidth]{images/modelo2.png}}%
+\end{figure}
+
+
+\subsubsection{Pseudocódigo}
+
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/7.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/8.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/9.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/10.png}}%
+\end{figure}
+
+\subsubsection{Código}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/33.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/34.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/35.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/36.png}}%
+\end{figure}
+
+\subsection{Apartado b}
+
+\subsubsection{Explicación textual}
+
+Al igual que en el apartado anterior, utilizaremos el patrón de diseño ``Estado'' para implementar la clase ``Triestable'', añadiendo esta vez una nueva subclase ``Amarillo'', que será un estado intermedio entre ``Rojo'' y ``Verde''.
+
+Como queremos que en nuestro sistema haya tanto biestables como triestables, ambos tendrán un atributo ``Estado''. Sin embargo, debido a que un biestable no puede estar en un estado ``Amarillo'', hemos añadido una restricción OCL para evitar esto:
+
+\begin{itemize}
+\item \emph{not self.estado.oclIsTypeOf(Amarillo):} En el contexto de un Biestable, su estado no podrá ser del tipo ``Amarillo''
+\end{itemize}
+
+
+En cuanto a los métodos del triestable:
+
+\begin{itemize}
+\item abrir():
+
+	\begin{itemize}
+	\item Estado ``Rojo'': permitirá a un ``Biestable'' pasar de un estado ``Rojo'' a ``Amarillo''.
+	\item Estado ``Amarillo'' : permitirá a un ``Biestable'' pasar de un estado ``Amarillo'' a ``Verde''.
+
+	\item Estado ``Verde'': devolverá un mensaje de error.
+	\end{itemize}
+	
+\item cerrar():
+
+	\begin{itemize}
+	\item Estado ``Rojo'': devolverá un mensaje de error.
+	\item Estado ``Amarillo'' : permitirá a un ``Biestable'' pasar de un estado ``Amarillo'' a ``Rojo''.
+	\item Estado ``Verde'':  permitirá a un ``Biestable'' pasar de un estado ``Verde'' a ``Amarillo''.
+
+	\end{itemize}
+	
+\item estado() : devuelve una cadena string que muestra el estado en el que se encuentra el triestable.
+\end{itemize}
+
+\subsubsection{Modelo}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1.4\textwidth]{images/modelo3.png}}%
+\end{figure}
+
+\subsubsection{Pseudocódigo}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/11.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/12.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/13.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/14.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/15.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/16.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/17.png}}%
+\end{figure}
+
+
+\subsubsection{Código}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/37.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/38.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/39.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/40.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/41.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/42.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/43.png}}%
+\end{figure}
+
+\subsection{Apartado c}
+
+\subsubsection{Explicación textual}
+Al igual que en el apartado anterior, utilizaremos el patrón de diseño ``Estado'' para implementar las clases ``Biestable'' y ``Triestable''.
+
+En este caso, para implementar el cambio de ``Biestable'' a ``Triestable'', utilizaremos el patrón de diseño ``Decorador''. Con esto conseguiremos añadir la funcionalidad de la clase ``Triestable'' a nuestra clase ``Biestable''.
+
+Para ello el ``Biestable'' contendrá un objeto que implementará la interfaz ``Buffer'', inicialmente a null. 
+
+Este objeto se inicializará a un objeto de tipo ``Triestable'' tras la llamada al método cambio() del ``Biestable''. De esta manera, cuando se vuelvan a invocar a los métodos abrir(), cerrar() y estado(), serán los métodos del buffer (Triestable) los que se ejecuten, actuando el ``Biestable'' como un ``Triestable''.
+
+\subsubsection{Modelo}
+
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1.4\textwidth]{images/modelo4.png}}%
+\end{figure}
+
+\subsubsection{Pseudocódigo}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/18.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/19.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/20.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/21.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/22.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/23.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/24.png}}%
+\end{figure}
+
+\subsubsection{Código}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/44.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/45.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/46.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/47.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/48.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/49.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/50.png}}%
+\end{figure}
+
+
+\section{Ejercicio 3}
+
+
+\subsection{Explicación textual}
+
+En este ejercicio hemos usado el patrón estrategia porque nos requería diferenciar el algoritmo según diferentes criterios, permitiendo así definir una familia de algoritmos, encapsulandolos en clases distintas y haciéndolos intercambiables a su vez. Para desarrollarlo hemos creado la interfaz ‘Ordenación', la cual implementan las subclases 'OrdenacionFrom', 'OrdenacionSubject', 'OrdenacionPriority' y  'OrdenacionDate', que tal y como su nombre indica cada subclase hace referencia a su propio algoritmo del método 'before()', definiendo así una clase estrategia por cada uno de ellos.
+
+
+\subsection{Modelo}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1.4\textwidth]{images/modelo5.png}}%
+\end{figure}
+
+\subsection{Código}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/25.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/26.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/27.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/28.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/29.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/30.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/31.png}}%
+\end{figure}
+
+\begin{figure}[H]
+  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/32.png}}%
+\end{figure}
+
+\section{Patrones de diseño usados}
+
+Proxy: \url{(https://refactoring.guru/es/design-patterns/proxy)}
+
+State: \url{(https://refactoring.guru/es/design-patterns/state)}
+
+Decorator: \url{(https://refactoring.guru/es/design-patterns/decorator)}
+
+Strategy: \url{(https://refactoring.guru/es/design-patterns/strategy)}
+
+
+\end{document}

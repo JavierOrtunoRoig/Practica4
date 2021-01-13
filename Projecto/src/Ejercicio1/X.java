@@ -1,6 +1,6 @@
 package Ejercicio1;
 
-public class X implements Servicio{
+public class X implements Servicio {
 
     @Override
     public void rutina1() {
