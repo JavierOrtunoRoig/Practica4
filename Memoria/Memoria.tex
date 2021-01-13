@@ -8,6 +8,34 @@
 \usepackage{lmodern,textcomp}
 \usepackage{enumitem}
 \usepackage[official]{eurosym}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{filecontents}
+
+
+\definecolor{javared}{rgb}{0.6,0,0} % for strings
+\definecolor{javagreen}{rgb}{0.25,0.5,0.35} % comments
+\definecolor{javapurple}{rgb}{0.5,0,0.35} % keywords
+\definecolor{javadocblue}{rgb}{0.25,0.35,0.75} % javadoc
+ 
+ 
+\lstset{language=Java,
+basicstyle=\ttfamily,
+keywordstyle=\color{javapurple}\bfseries,
+stringstyle=\color{javared},
+commentstyle=\color{javagreen},
+morecomment=[s][\color{javadocblue}]{/**}{*/},
+%numbers=left,
+%numberstyle=\tiny\color{black},
+%stepnumber=2,
+%numbersep=10pt,
+columns=fullflexible,
+frame=single,
+breaklines=true,
+linewidth=13cm,
+tabsize=4,
+showspaces=false,
+showstringspaces=false}
 
 \author{Javier Ortuño Roig}
 \title{Modelado y Diseño de Software}
@@ -77,30 +105,19 @@ Primero daremos una descripción y a continuación habrá imágenes con el códi
 	
 	Por último X y Proxy son hijas de la interfaz Servicio. En esta interfaz es la que indica que servicios aporta el proxy. La interfaz Servicio es un objeto imaginario, y la clase X es el objeto real, y el Proxy tiene la función de crear un objeto real si el cliente puede acceder a los servicios que solicita en la interfaz.
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/1.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Interfaz: Servicio.Java]{images/src/Ejercicio1/Servicio.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/2.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: X.Java]{images/src/Ejercicio1/X.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/3.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: Proxy.Java]{images/src/Ejercicio1/Proxy.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=0.6\textwidth]{images/4.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Interfaz: Proxy.Java]{images/src/Ejercicio1/Cliente.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=0.6\textwidth]{images/5.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: A.Java]{images/src/Ejercicio1/A.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=0.6\textwidth]{images/6.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: B.Java]{images/src/Ejercicio1/B.java}
 
+\lstinputlisting[language=Java, title=Clase: C.Java]{images/src/Ejercicio1/C.java}
 
 
 \section{Ejercicio 2}
@@ -146,40 +163,17 @@ En cuanto a los métodos del biestable:
 
 \subsubsection{Pseudocódigo}
 
-
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/7.png}}%
-\end{figure}
-
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/8.png}}%
-\end{figure}
-
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/9.png}}%
-\end{figure}
-
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/10.png}}%
-\end{figure}
+Dado que el pseudocódigo es muy parecido al código en Java se dejará solo el código para no sobrecargar la memoria con información repetida.
 
 \subsubsection{Código}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/33.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: Biestable.Java]{images/src/Ejercicio2/a/Biestable.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/34.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase abstracta: Estado.Java]{images/src/Ejercicio2/a/Estado.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/35.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: Rojo.Java]{images/src/Ejercicio2/a/Rojo.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/36.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: Verde.Java]{images/src/Ejercicio2/a/Verde.java}
 
 \subsection{Apartado b}
 
@@ -226,64 +220,24 @@ En cuanto a los métodos del triestable:
 
 \subsubsection{Pseudocódigo}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/11.png}}%
-\end{figure}
-
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/12.png}}%
-\end{figure}
-
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/13.png}}%
-\end{figure}
-
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/14.png}}%
-\end{figure}
-
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/15.png}}%
-\end{figure}
-
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/16.png}}%
-\end{figure}
-
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/17.png}}%
-\end{figure}
+Dado que el pseudocódigo es muy parecido al código en Java se dejará solo el código para no sobrecargar la memoria con información repetida.
 
 
 \subsubsection{Código}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/37.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Interfaz: Buffer.Java]{images/src/Ejercicio2/b/Buffer.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/38.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: Biestable.Java]{images/src/Ejercicio2/b/Biestable.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/39.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: Triestable.Java]{images/src/Ejercicio2/b/Triestable.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/40.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase abstracta: Estado.Java]{images/src/Ejercicio2/b/Estado.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/41.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: Rojo.Java]{images/src/Ejercicio2/b/Rojo.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/42.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: Amarillo.Java]{images/src/Ejercicio2/b/Amarillo.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/43.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: Verde.Java]{images/src/Ejercicio2/b/Verde.java}
 
 \subsection{Apartado c}
 
@@ -305,63 +259,23 @@ Este objeto se inicializará a un objeto de tipo ``Triestable'' tras la llamada 
 
 \subsubsection{Pseudocódigo}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/18.png}}%
-\end{figure}
-
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/19.png}}%
-\end{figure}
-
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/20.png}}%
-\end{figure}
-
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/21.png}}%
-\end{figure}
-
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/22.png}}%
-\end{figure}
-
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/23.png}}%
-\end{figure}
-
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/24.png}}%
-\end{figure}
+Dado que el pseudocódigo es muy parecido al código en Java se dejará solo el código para no sobrecargar la memoria con información repetida.
 
 \subsubsection{Código}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/44.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Interfaz: Buffer.Java]{images/src/Ejercicio2/c/Buffer.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/45.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: Biestable.Java]{images/src/Ejercicio2/c/Biestable.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/46.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: Triestable.Java]{images/src/Ejercicio2/c/Triestable.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/47.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase abstracta: Estado.Java]{images/src/Ejercicio2/c/Estado.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/48.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: Rojo.Java]{images/src/Ejercicio2/c/Rojo.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/49.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: Amarillo.Java]{images/src/Ejercicio2/c/Amarillo.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/50.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: Verde.Java]{images/src/Ejercicio2/c/Verde.java}
 
 
 \section{Ejercicio 3}
@@ -380,37 +294,23 @@ En este ejercicio hemos usado el patrón estrategia porque nos requería diferen
 
 \subsection{Código}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/25.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: Email.Java]{images/src/Ejercicio3/Email.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/26.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: Mailbox.Java]{images/src/Ejercicio3/Mailbox.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/27.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Interfaz: Ordenacion.Java]{images/src/Ejercicio3/Ordenacion.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/28.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: OrdenacionDate.Java]{images/src/Ejercicio3/OrdenacionDate.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/29.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: OrdenacionFrom.Java]{images/src/Ejercicio3/OrdenacionFrom.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/30.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: OrdenacionPriority.Java]{images/src/Ejercicio3/OrdenacionPriority.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/31.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: OrdenacionSubject.Java]{images/src/Ejercicio3/OrdenacionSubject.java}
 
-\begin{figure}[H]
-  \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{images/32.png}}%
-\end{figure}
+\lstinputlisting[language=Java, title=Clase: Priority.Java]{images/src/Ejercicio3/Priority.java}
+
+
 
 \section{Patrones de diseño usados}
 
