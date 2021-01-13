@@ -1,0 +1,28 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Ejercicio 1}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Apartado a}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Apartado b}{2}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Explicación textual}{2}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Modelo}{3}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Código}{3}{subsubsection.1.2.3}%
+\contentsline {section}{\numberline {2}Ejercicio 2}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Apartado a}{6}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Explicación textual}{6}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Modelo}{7}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Pseudocódigo}{8}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Código}{11}{subsubsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.2}Apartado b}{13}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Explicación textual}{13}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Modelo}{14}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Pseudocódigo}{15}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Código}{20}{subsubsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.3}Apartado c}{24}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Explicación textual}{24}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Modelo}{25}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Pseudocódigo}{26}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Código}{31}{subsubsection.2.3.4}%
+\contentsline {section}{\numberline {3}Ejercicio 3}{35}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Explicación textual}{35}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Modelo}{36}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Código}{37}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Patrones de diseño usados}{41}{section.4}%

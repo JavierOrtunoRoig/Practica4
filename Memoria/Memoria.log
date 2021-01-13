@@ -1,0 +1,898 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.4)  12 JAN 2021 13:58
+entering extended mode
+**./Memoria.tex
+(Memoria.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-18>
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2020/06/10 3.45 The Babel package
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2020/06/10 3.45 Babel common definitions
+\babel@savecnt=\count175
+\U@D=\dimen135
+\l@babelnohyphens=\language79
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count176
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.
+ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+\es@quottoks=\toks17
+\es@quotdepth=\count177
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmd
+s.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.
+sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.
+sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefin
+ekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.
+sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacr
+o.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.st
+y
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen136
+\Hy@linkcounter=\count178
+\Hy@pagecounter=\count179
+ (C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.st
+y
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count180
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count181
+ (C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen137
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcal
+c.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count182
+\Field@Width=\dimen138
+\Fld@charsize=\dimen139
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/generic/atbegshi\atbegshi.st
+y
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count183
+\c@Item=\count184
+\c@Hfootnote=\count185
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/atveryend\atveryend.st
+y
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count186
+\c@bookmark@seq@number=\count187
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfi
+lecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\unique
+counter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip49
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.
+cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.de
+f
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+) (C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen142
+\ar@mcellbox=\box45
+\extrarowheight=\dimen143
+\NC@list=\toks19
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box46
+)
+\everycr=\toks20
+\minrowclearance=\skip52
+)
+\rownum=\count188
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count189
+\float@exts=\toks21
+\float@box=\box47
+\@float@everytoks=\toks22
+\@floatcapt=\box48
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip53
+\enit@outerparindent=\dimen144
+\enit@toks=\toks23
+\enit@inbox=\box49
+\enit@count@id=\count190
+\enitdp@description=\count191
+) (C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/eurosym\eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box50
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
+fmode.def
+File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count192
+\l__pdf_internal_box=\box51
+) (Memoria.aux)
+\openout1 = `Memoria.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+6.
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
+\AtBeginShipoutBox=\box52
+Package hyperref Info: Link coloring OFF on input line 16.
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\getti
+tlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count193
+)
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
+ (Memoria.out) (Memoria.out)
+\@outlinefile=\write3
+\openout3 = `Memoria.out'.
+
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
+kii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count194
+\scratchdimen=\dimen145
+\scratchbox=\box53
+\nofMPsegments=\count195
+\nofMParguments=\count196
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count197
+\MPscratchDim=\dimen146
+\MPnumerator=\count198
+\makeMPintoPDFobject=\count199
+\everyMPtoPDFconversion=\toks25
+)
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
+base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+) [1
+
+{C:/Users/Javier/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
+\tf@toc=\write4
+\openout4 = `Memoria.toc'.
+
+LaTeX Info: Redefining \. on input line 42.
+LaTeX Info: Redefining \% on input line 42.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.42 \newpage
+              [1]
+<images/modelo1.png, id=125, 1132.23pt x 694.595pt>
+File: images/modelo1.png Graphic file (type png)
+<use images/modelo1.png>
+Package pdftex.def Info: images/modelo1.png  used on input line 65.
+(pdftex.def)             Requested size: 503.9978pt x 309.18388pt.
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
+ [2]
+<images/1.png, id=131, 2083.785pt x 875.27pt>
+File: images/1.png Graphic file (type png)
+<use images/1.png>
+Package pdftex.def Info: images/1.png  used on input line 81.
+(pdftex.def)             Requested size: 360.0pt x 151.21127pt.
+LaTeX Info: Redefining \. on input line 83.
+LaTeX Info: Redefining \% on input line 83.
+ [3 <./images/modelo1.png>]
+<images/2.png, id=137, 2115.905pt x 2320.67pt>
+File: images/2.png Graphic file (type png)
+<use images/2.png>
+Package pdftex.def Info: images/2.png  used on input line 85.
+(pdftex.def)             Requested size: 360.0pt x 394.82738pt.
+<images/3.png, id=138, 2963.07pt x 2754.29pt>
+File: images/3.png Graphic file (type png)
+<use images/3.png>
+Package pdftex.def Info: images/3.png  used on input line 89.
+(pdftex.def)             Requested size: 360.0pt x 334.61919pt.
+LaTeX Info: Redefining \. on input line 91.
+LaTeX Info: Redefining \% on input line 91.
+ [4 <./images/1.png> <./images/2.png>]
+<images/4.png, id=145, 1236.62pt x 658.46pt>
+File: images/4.png Graphic file (type png)
+<use images/4.png>
+Package pdftex.def Info: images/4.png  used on input line 93.
+(pdftex.def)             Requested size: 216.0022pt x 115.01118pt.
+<images/5.png, id=146, 1236.62pt x 658.46pt>
+File: images/5.png Graphic file (type png)
+<use images/5.png>
+Package pdftex.def Info: images/5.png  used on input line 97.
+(pdftex.def)             Requested size: 216.0022pt x 115.01118pt.
+LaTeX Info: Redefining \. on input line 99.
+LaTeX Info: Redefining \% on input line 99.
+ [5 <./images/3.png> <./images/4.png>]
+<images/6.png, id=153, 1236.62pt x 658.46pt>
+File: images/6.png Graphic file (type png)
+<use images/6.png>
+Package pdftex.def Info: images/6.png  used on input line 101.
+(pdftex.def)             Requested size: 216.0022pt x 115.01118pt.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+23.
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Info: Redefining \. on input line 132.
+LaTeX Info: Redefining \% on input line 132.
+ [6 <./images/5.png> <./images/6.png>]
+<images/modelo2.png, id=162, 953.5625pt x 425.59pt>
+File: images/modelo2.png Graphic file (type png)
+<use images/modelo2.png>
+Package pdftex.def Info: images/modelo2.png  used on input line 143.
+(pdftex.def)             Requested size: 503.9978pt x 224.94469pt.
+<images/7.png, id=163, 1473.505pt x 2103.86pt>
+File: images/7.png Graphic file (type png)
+<use images/7.png>
+Package pdftex.def Info: images/7.png  used on input line 151.
+(pdftex.def)             Requested size: 360.0pt x 513.98956pt.
+LaTeX Info: Redefining \. on input line 153.
+LaTeX Info: Redefining \% on input line 153.
+ [7 <./images/modelo2.png>]
+<images/8.png, id=168, 1674.255pt x 658.46pt>
+File: images/8.png Graphic file (type png)
+<use images/8.png>
+Package pdftex.def Info: images/8.png  used on input line 155.
+(pdftex.def)             Requested size: 360.0pt x 141.57619pt.
+LaTeX Info: Redefining \. on input line 157.
+LaTeX Info: Redefining \% on input line 157.
+ [8 <./images/7.png>]
+<images/9.png, id=174, 2316.655pt x 1381.16pt>
+File: images/9.png Graphic file (type png)
+<use images/9.png>
+Package pdftex.def Info: images/9.png  used on input line 159.
+(pdftex.def)             Requested size: 360.0pt x 214.62553pt.
+<images/10.png, id=175, 2316.655pt x 1381.16pt>
+File: images/10.png Graphic file (type png)
+<use images/10.png>
+Package pdftex.def Info: images/10.png  used on input line 163.
+(pdftex.def)             Requested size: 360.0pt x 214.62553pt.
+LaTeX Info: Redefining \. on input line 165.
+LaTeX Info: Redefining \% on input line 165.
+
+[9 <./images/8.png> <./images/9.png>]
+<images/33.png, id=182, 1674.255pt x 2176.13pt>
+File: images/33.png Graphic file (type png)
+<use images/33.png>
+Package pdftex.def Info: images/33.png  used on input line 169.
+(pdftex.def)             Requested size: 360.0pt x 467.89204pt.
+LaTeX Info: Redefining \. on input line 171.
+LaTeX Info: Redefining \% on input line 171.
+ [10 <./images/10.png>]
+<images/34.png, id=188, 1947.275pt x 803.0pt>
+File: images/34.png Graphic file (type png)
+<use images/34.png>
+Package pdftex.def Info: images/34.png  used on input line 173.
+(pdftex.def)             Requested size: 360.0pt x 148.45465pt.
+LaTeX Info: Redefining \. on input line 175.
+LaTeX Info: Redefining \% on input line 175.
+ [11 <./images/33.png>]
+<images/35.png, id=194, 2963.07pt x 1670.24pt>
+File: images/35.png Graphic file (type png)
+<use images/35.png>
+Package pdftex.def Info: images/35.png  used on input line 177.
+(pdftex.def)             Requested size: 360.0pt x 202.91776pt.
+<images/36.png, id=195, 2963.07pt x 1670.24pt>
+File: images/36.png Graphic file (type png)
+<use images/36.png>
+Package pdftex.def Info: images/36.png  used on input line 181.
+(pdftex.def)             Requested size: 360.0pt x 202.91776pt.
+LaTeX Info: Redefining \. on input line 183.
+LaTeX Info: Redefining \% on input line 183.
+ [12 <./images/34.png> <./images/35.png>]
+LaTeX Info: Redefining \. on input line 215.
+LaTeX Info: Redefining \% on input line 215.
+ [13 <./images/36.png>]
+<images/modelo3.png, id=209, 1046.91125pt x 721.69624pt>
+File: images/modelo3.png Graphic file (type png)
+<use images/modelo3.png>
+Package pdftex.def Info: images/modelo3.png  used on input line 224.
+(pdftex.def)             Requested size: 503.9978pt x 347.4344pt.
+<images/11.png, id=210, 1268.74pt x 730.73pt>
+File: images/11.png Graphic file (type png)
+<use images/11.png>
+Package pdftex.def Info: images/11.png  used on input line 230.
+(pdftex.def)             Requested size: 360.0pt x 207.33476pt.
+LaTeX Info: Redefining \. on input line 232.
+LaTeX Info: Redefining \% on input line 232.
+ [14 <./images/modelo3.png>]
+<images/12.png, id=215, 1473.505pt x 2103.86pt>
+File: images/12.png Graphic file (type png)
+<use images/12.png>
+Package pdftex.def Info: images/12.png  used on input line 234.
+(pdftex.def)             Requested size: 360.0pt x 513.98956pt.
+LaTeX Info: Redefining \. on input line 236.
+LaTeX Info: Redefining \% on input line 236.
+ [15 <./images/11.png>]
+<images/13.png, id=221, 1505.625pt x 2031.59pt>
+File: images/13.png Graphic file (type png)
+<use images/13.png>
+Package pdftex.def Info: images/13.png  used on input line 238.
+(pdftex.def)             Requested size: 360.0pt x 485.7626pt.
+LaTeX Info: Redefining \. on input line 240.
+LaTeX Info: Redefining \% on input line 240.
+ [16 <./images/12.png>]
+<images/14.png, id=227, 1473.505pt x 730.73pt>
+File: images/14.png Graphic file (type png)
+<use images/14.png>
+Package pdftex.def Info: images/14.png  used on input line 242.
+(pdftex.def)             Requested size: 360.0pt x 178.52309pt.
+LaTeX Info: Redefining \. on input line 244.
+LaTeX Info: Redefining \% on input line 244.
+ [17 <./images/13.png>]
+<images/15.png, id=233, 2316.655pt x 1742.51pt>
+File: images/15.png Graphic file (type png)
+<use images/15.png>
+Package pdftex.def Info: images/15.png  used on input line 246.
+(pdftex.def)             Requested size: 360.0pt x 270.77756pt.
+<images/16.png, id=234, 2316.655pt x 1742.51pt>
+File: images/16.png Graphic file (type png)
+<use images/16.png>
+Package pdftex.def Info: images/16.png  used on input line 250.
+(pdftex.def)             Requested size: 360.0pt x 270.77756pt.
+LaTeX Info: Redefining \. on input line 252.
+LaTeX Info: Redefining \% on input line 252.
+ [18 <./images/14.png> <./images/15.png>]
+<images/17.png, id=242, 2621.795pt x 2031.59pt>
+File: images/17.png Graphic file (type png)
+<use images/17.png>
+Package pdftex.def Info: images/17.png  used on input line 254.
+(pdftex.def)             Requested size: 360.0pt x 278.93375pt.
+<images/37.png, id=243, 1541.76pt x 875.27pt>
+File: images/37.png Graphic file (type png)
+<use images/37.png>
+Package pdftex.def Info: images/37.png  used on input line 261.
+(pdftex.def)             Requested size: 360.0pt x 204.36627pt.
+LaTeX Info: Redefining \. on input line 263.
+LaTeX Info: Redefining \% on input line 263.
+ [19 <./images/16.png> <./images/17.png>]
+<images/38.png, id=250, 1573.88pt x 2176.13pt>
+File: images/38.png Graphic file (type png)
+<use images/38.png>
+Package pdftex.def Info: images/38.png  used on input line 265.
+(pdftex.def)             Requested size: 360.0pt x 497.74336pt.
+LaTeX Info: Redefining \. on input line 267.
+LaTeX Info: Redefining \% on input line 267.
+ [20 <./images/37.png>]
+<images/39.png, id=256, 1573.88pt x 2176.13pt>
+File: images/39.png Graphic file (type png)
+<use images/39.png>
+Package pdftex.def Info: images/39.png  used on input line 269.
+(pdftex.def)             Requested size: 360.0pt x 497.74336pt.
+LaTeX Info: Redefining \. on input line 271.
+LaTeX Info: Redefining \% on input line 271.
+ [21 <./images/38.png>]
+<images/40.png, id=262, 1746.525pt x 803.0pt>
+File: images/40.png Graphic file (type png)
+<use images/40.png>
+Package pdftex.def Info: images/40.png  used on input line 273.
+(pdftex.def)             Requested size: 360.0pt x 165.51051pt.
+LaTeX Info: Redefining \. on input line 275.
+LaTeX Info: Redefining \% on input line 275.
+ [22 <./images/39.png>]
+<images/41.png, id=268, 2963.07pt x 1887.05pt>
+File: images/41.png Graphic file (type png)
+<use images/41.png>
+Package pdftex.def Info: images/41.png  used on input line 277.
+(pdftex.def)             Requested size: 360.0pt x 229.25804pt.
+<images/42.png, id=269, 3264.195pt x 2176.13pt>
+File: images/42.png Graphic file (type png)
+<use images/42.png>
+Package pdftex.def Info: images/42.png  used on input line 281.
+(pdftex.def)             Requested size: 360.0pt x 239.97273pt.
+LaTeX Info: Redefining \. on input line 283.
+LaTeX Info: Redefining \% on input line 283.
+[23 <./images/40.png> <./images/41.png>]
+<images/43.png, id=276, 2963.07pt x 2031.59pt>
+File: images/43.png Graphic file (type png)
+<use images/43.png>
+Package pdftex.def Info: images/43.png  used on input line 285.
+(pdftex.def)             Requested size: 360.0pt x 246.81824pt.
+LaTeX Info: Redefining \. on input line 294.
+LaTeX Info: Redefining \% on input line 294.
+ [24 <./images/42.png> <./images/43.png>]
+<images/modelo4.png, id=284, 1069.9975pt x 745.78625pt>
+File: images/modelo4.png Graphic file (type png)
+<use images/modelo4.png>
+Package pdftex.def Info: images/modelo4.png  used on input line 303.
+(pdftex.def)             Requested size: 503.9978pt x 351.29341pt.
+<images/18.png, id=285, 1268.74pt x 730.73pt>
+File: images/18.png Graphic file (type png)
+<use images/18.png>
+Package pdftex.def Info: images/18.png  used on input line 309.
+(pdftex.def)             Requested size: 360.0pt x 207.33476pt.
+LaTeX Info: Redefining \. on input line 311.
+LaTeX Info: Redefining \% on input line 311.
+ [25 <./images/modelo4.png>]
+<images/19.png, id=290, 1778.645pt x 3404.72pt>
+File: images/19.png Graphic file (type png)
+<use images/19.png>
+Package pdftex.def Info: images/19.png  used on input line 313.
+(pdftex.def)             Requested size: 360.0pt x 689.08838pt.
+LaTeX Info: Redefining \. on input line 315.
+LaTeX Info: Redefining \% on input line 315.
+ [26 <./images/18.png>]
+Overfull \vbox (93.28812pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 315.
+LaTeX Info: Redefining \% on input line 315.
+
+[27 <./images/19.png>]
+<images/20.png, id=301, 1505.625pt x 2031.59pt>
+File: images/20.png Graphic file (type png)
+<use images/20.png>
+Package pdftex.def Info: images/20.png  used on input line 317.
+(pdftex.def)             Requested size: 360.0pt x 485.7626pt.
+<images/21.png, id=302, 1473.505pt x 658.46pt>
+File: images/21.png Graphic file (type png)
+<use images/21.png>
+Package pdftex.def Info: images/21.png  used on input line 321.
+(pdftex.def)             Requested size: 360.0pt x 160.86696pt.
+LaTeX Info: Redefining \. on input line 323.
+LaTeX Info: Redefining \% on input line 323.
+ [28 <./images/20.png>]
+<images/22.png, id=308, 2316.655pt x 1453.43pt>
+File: images/22.png Graphic file (type png)
+<use images/22.png>
+Package pdftex.def Info: images/22.png  used on input line 325.
+(pdftex.def)             Requested size: 360.0pt x 225.85593pt.
+<images/23.png, id=309, 2316.655pt x 1670.24pt>
+File: images/23.png Graphic file (type png)
+<use images/23.png>
+Package pdftex.def Info: images/23.png  used on input line 329.
+(pdftex.def)             Requested size: 360.0pt x 259.54715pt.
+LaTeX Info: Redefining \. on input line 331.
+LaTeX Info: Redefining \% on input line 331.
+ [29 <./images/21.png> <./images/22.png>]
+<images/24.png, id=316, 2621.795pt x 2031.59pt>
+File: images/24.png Graphic file (type png)
+<use images/24.png>
+Package pdftex.def Info: images/24.png  used on input line 333.
+(pdftex.def)             Requested size: 360.0pt x 278.93375pt.
+<images/44.png, id=317, 1541.76pt x 875.27pt>
+File: images/44.png Graphic file (type png)
+<use images/44.png>
+Package pdftex.def Info: images/44.png  used on input line 339.
+(pdftex.def)             Requested size: 360.0pt x 204.36627pt.
+LaTeX Info: Redefining \. on input line 341.
+LaTeX Info: Redefining \% on input line 341.
+ [30 <./images/23.png> <./images/24.png>]
+<images/45.png, id=325, 2657.93pt x 3332.45pt>
+File: images/45.png Graphic file (type png)
+<use images/45.png>
+Package pdftex.def Info: images/45.png  used on input line 343.
+(pdftex.def)             Requested size: 360.0pt x 451.33597pt.
+LaTeX Info: Redefining \. on input line 345.
+LaTeX Info: Redefining \% on input line 345.
+ [31 <./images/44.png>]
+<images/46.png, id=331, 1610.015pt x 2465.21pt>
+File: images/46.png Graphic file (type png)
+<use images/46.png>
+Package pdftex.def Info: images/46.png  used on input line 347.
+(pdftex.def)             Requested size: 360.0pt x 551.22527pt.
+LaTeX Info: Redefining \. on input line 349.
+LaTeX Info: Redefining \% on input line 349.
+
+[32 <./images/45.png>]
+<images/47.png, id=337, 1746.525pt x 803.0pt>
+File: images/47.png Graphic file (type png)
+<use images/47.png>
+Package pdftex.def Info: images/47.png  used on input line 351.
+(pdftex.def)             Requested size: 360.0pt x 165.51051pt.
+LaTeX Info: Redefining \. on input line 353.
+LaTeX Info: Redefining \% on input line 353.
+ [33 <./images/46.png>]
+<images/48.png, id=343, 2963.07pt x 1597.97pt>
+File: images/48.png Graphic file (type png)
+<use images/48.png>
+Package pdftex.def Info: images/48.png  used on input line 355.
+(pdftex.def)             Requested size: 360.0pt x 194.13766pt.
+<images/49.png, id=344, 3264.195pt x 2176.13pt>
+File: images/49.png Graphic file (type png)
+<use images/49.png>
+Package pdftex.def Info: images/49.png  used on input line 359.
+(pdftex.def)             Requested size: 360.0pt x 239.97273pt.
+LaTeX Info: Redefining \. on input line 361.
+LaTeX Info: Redefining \% on input line 361.
+ [34 <./images/47.png> <./images/48.png>]
+<images/50.png, id=351, 2963.07pt x 2031.59pt>
+File: images/50.png Graphic file (type png)
+<use images/50.png>
+Package pdftex.def Info: images/50.png  used on input line 363.
+(pdftex.def)             Requested size: 360.0pt x 246.81824pt.
+LaTeX Info: Redefining \. on input line 373.
+LaTeX Info: Redefining \% on input line 373.
+ [35 <./images/49.png> <./images/50.png>]
+<images/modelo5.png, id=358, 1164.35pt x 700.6175pt>
+File: images/modelo5.png Graphic file (type png)
+<use images/modelo5.png>
+Package pdftex.def Info: images/modelo5.png  used on input line 378.
+(pdftex.def)             Requested size: 503.9978pt x 303.25877pt.
+<images/25.png, id=359, 1100.11pt x 875.27pt>
+File: images/25.png Graphic file (type png)
+<use images/25.png>
+Package pdftex.def Info: images/25.png  used on input line 384.
+(pdftex.def)             Requested size: 360.0pt x 286.42264pt.
+LaTeX Info: Redefining \. on input line 386.
+LaTeX Info: Redefining \% on input line 386.
+ [36 <./images/modelo5.png>]
+<images/26.png, id=365, 4111.36pt x 3260.18pt>
+File: images/26.png Graphic file (type png)
+<use images/26.png>
+Package pdftex.def Info: images/26.png  used on input line 388.
+(pdftex.def)             Requested size: 360.0pt x 285.44414pt.
+LaTeX Info: Redefining \. on input line 390.
+LaTeX Info: Redefining \% on input line 390.
+
+[37 <./images/25.png>]
+<images/27.png, id=371, 1674.255pt x 513.92pt>
+File: images/27.png Graphic file (type png)
+<use images/27.png>
+Package pdftex.def Info: images/27.png  used on input line 392.
+(pdftex.def)             Requested size: 360.0pt x 110.49847pt.
+<images/28.png, id=372, 2557.555pt x 1381.16pt>
+File: images/28.png Graphic file (type png)
+<use images/28.png>
+Package pdftex.def Info: images/28.png  used on input line 396.
+(pdftex.def)             Requested size: 360.0pt x 194.39374pt.
+LaTeX Info: Redefining \. on input line 398.
+LaTeX Info: Redefining \% on input line 398.
+ [38 <./images/26.png> <./images/27.png>]
+<images/29.png, id=379, 2557.555pt x 1308.89pt>
+File: images/29.png Graphic file (type png)
+<use images/29.png>
+Package pdftex.def Info: images/29.png  used on input line 400.
+(pdftex.def)             Requested size: 360.0pt x 184.22197pt.
+<images/30.png, id=380, 2557.555pt x 1381.16pt>
+File: images/30.png Graphic file (type png)
+<use images/30.png>
+Package pdftex.def Info: images/30.png  used on input line 404.
+(pdftex.def)             Requested size: 360.0pt x 194.39374pt.
+LaTeX Info: Redefining \. on input line 406.
+LaTeX Info: Redefining \% on input line 406.
+ [39 <./images/28.png> <./images/29.png>]
+<images/31.png, id=387, 2557.555pt x 1308.89pt>
+File: images/31.png Graphic file (type png)
+<use images/31.png>
+Package pdftex.def Info: images/31.png  used on input line 408.
+(pdftex.def)             Requested size: 360.0pt x 184.22197pt.
+<images/32.png, id=388, 967.615pt x 513.92pt>
+File: images/32.png Graphic file (type png)
+<use images/32.png>
+Package pdftex.def Info: images/32.png  used on input line 412.
+(pdftex.def)             Requested size: 360.0pt x 191.20605pt.
+LaTeX Info: Redefining \. on input line 414.
+LaTeX Info: Redefining \% on input line 414.
+ [40 <./images/30.png> <./images/31.png>]
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
+417.
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmtt.fd
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
+17.
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+417.
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+417.
+
+(C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 417.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 417.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 417.
+
+Overfull \hbox (26.51439pt too wide) in paragraph at lines 421--422
+[]\OT1/lmr/m/n/10.95 Decorator: []$\OT1/lmtt/m/n/10.95 (https : / / refactoring
+ . guru / es / design-[]patterns / decorator)$[] 
+ []
+
+
+Overfull \hbox (13.8916pt too wide) in paragraph at lines 423--424
+[]\OT1/lmr/m/n/10.95 Strategy: []$\OT1/lmtt/m/n/10.95 (https : / / refactoring 
+. guru / es / design-[]patterns / strategy)$[] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 426.
+LaTeX Info: Redefining \. on input line 426.
+LaTeX Info: Redefining \% on input line 426.
+[41 <./images/32.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 426.
+ (Memoria.aux
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 426.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 426.
+
+
+Package rerunfilecheck Warning: File `Memoria.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Memoria.out':
+(rerunfilecheck)             Before: 1E5694613C4DAE323C1311BC387DAFCD;1790
+(rerunfilecheck)             After:  796099CA4F63566999C26AA13E842710;1776.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 426.
+ ) 
+Here is how much of TeX's memory you used:
+ 7866 strings out of 480790
+ 121535 string characters out of 2896832
+ 393817 words of memory out of 3000000
+ 23605 multiletter control sequences out of 15000+200000
+ 577457 words of font info for 48 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 37i,7n,37p,633b,564s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{subsection.3.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+{C:/Users/Javier/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc}{
+C:/Users/Javier/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/
+Users/Javier/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Us
+ers/Javier/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmsc.enc}<C:/Use
+rs/Javier/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Us
+ers/Javier/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/U
+sers/Javier/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:
+/Users/Javier/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:
+/Users/Javier/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:
+/Users/Javier/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C
+:/Users/Javier/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><
+C:/Users/Javier/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
+Output written on Memoria.pdf (42 pages, 6982846 bytes).
+PDF statistics:
+ 456 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
+ 492 words of extra memory for PDF output out of 10000 (max. 10000000)
+
