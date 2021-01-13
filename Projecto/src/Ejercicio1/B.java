@@ -1,5 +1,5 @@
 package Ejercicio1;
 
-public class B extends Cliente{
+public class B extends Cliente {
     
 }
