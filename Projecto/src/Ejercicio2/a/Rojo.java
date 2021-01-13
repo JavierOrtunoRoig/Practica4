@@ -1,6 +1,7 @@
 package Ejercicio2.a;
 
 public class Rojo extends Estado{
+    
     @Override
     public void abrir(Biestable biestable) {
         biestable.setEstado(new Verde());

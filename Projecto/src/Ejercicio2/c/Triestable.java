@@ -1,11 +1,15 @@
-package Ejercicio2.b;
+package Ejercicio2.c;
 
-public class Biestable implements Buffer {
+public class Triestable implements Buffer {
 
     Estado estado;
 
-    public Biestable() {
+    public Triestable() {
         this.estado = new Rojo();
+    }
+
+    public Triestable(Estado estado) {
+        this.estado = estado;
     }
 
     public void abrir() {
