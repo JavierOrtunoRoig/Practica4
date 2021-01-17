@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.4)  13 JAN 2021 13:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.4)  13 JAN 2021 19:52
 entering extended mode
 **./Memoria.tex
 (Memoria.tex
@@ -477,7 +477,7 @@ LaTeX Info: Redefining \. on input line 95.
 LaTeX Info: Redefining \% on input line 95.
  [2]
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-108.
+109.
 
 (C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -498,18 +498,18 @@ LaTeX Info: Redefining \% on input line 3.
  [5])
 (images/src/Ejercicio1/B.java) (images/src/Ejercicio1/C.java)
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-40.
+41.
 
 (C:\Users\Javier\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \. on input line 148.
-LaTeX Info: Redefining \% on input line 148.
+LaTeX Info: Redefining \. on input line 149.
+LaTeX Info: Redefining \% on input line 149.
  [6]
 <images/modelo2.png, id=276, 953.5625pt x 425.59pt>
 File: images/modelo2.png Graphic file (type png)
 <use images/modelo2.png>
-Package pdftex.def Info: images/modelo2.png  used on input line 160.
+Package pdftex.def Info: images/modelo2.png  used on input line 161.
 (pdftex.def)             Requested size: 503.9978pt x 224.94469pt.
 
 (images/src/Ejercicio2/a/Biestable.java
@@ -521,20 +521,20 @@ LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
 
 [8]) (images/src/Ejercicio2/a/Verde.java)
-LaTeX Info: Redefining \. on input line 188.
-LaTeX Info: Redefining \% on input line 188.
+LaTeX Info: Redefining \. on input line 189.
+LaTeX Info: Redefining \% on input line 189.
  [9]
 <images/modelo3.png, id=364, 1046.91125pt x 721.69624pt>
 File: images/modelo3.png Graphic file (type png)
 <use images/modelo3.png>
-Package pdftex.def Info: images/modelo3.png  used on input line 218.
+Package pdftex.def Info: images/modelo3.png  used on input line 219.
 (pdftex.def)             Requested size: 503.9978pt x 347.4344pt.
-LaTeX Info: Redefining \. on input line 220.
-LaTeX Info: Redefining \% on input line 220.
+LaTeX Info: Redefining \. on input line 221.
+LaTeX Info: Redefining \% on input line 221.
  [10]
 (images/src/Ejercicio2/b/Buffer.java)
-LaTeX Info: Redefining \. on input line 228.
-LaTeX Info: Redefining \% on input line 228.
+LaTeX Info: Redefining \. on input line 229.
+LaTeX Info: Redefining \% on input line 229.
  [11 <./images/modelo3.png>]
 (images/src/Ejercicio2/b/Biestable.java)
 (images/src/Ejercicio2/b/Triestable.java
@@ -553,33 +553,33 @@ LaTeX Info: Redefining \% on input line 8.
 <images/modelo4.png, id=515, 1069.9975pt x 745.78625pt>
 File: images/modelo4.png Graphic file (type png)
 <use images/modelo4.png>
-Package pdftex.def Info: images/modelo4.png  used on input line 257.
+Package pdftex.def Info: images/modelo4.png  used on input line 258.
 (pdftex.def)             Requested size: 503.9978pt x 351.29341pt.
-LaTeX Info: Redefining \. on input line 259.
-LaTeX Info: Redefining \% on input line 259.
+LaTeX Info: Redefining \. on input line 260.
+LaTeX Info: Redefining \% on input line 260.
  [15]
 (images/src/Ejercicio2/c/Buffer.java)
-LaTeX Info: Redefining \. on input line 266.
-LaTeX Info: Redefining \% on input line 266.
+LaTeX Info: Redefining \. on input line 267.
+LaTeX Info: Redefining \% on input line 267.
  [16 <./images/modelo4.png>]
 (images/src/Ejercicio2/c/Biestable.java
 LaTeX Info: Redefining \. on input line 42.
 LaTeX Info: Redefining \% on input line 42.
  [17])
 (images/src/Ejercicio2/c/Triestable.java) (images/src/Ejercicio2/c/Estado.java)
-LaTeX Info: Redefining \. on input line 272.
-LaTeX Info: Redefining \% on input line 272.
+LaTeX Info: Redefining \. on input line 273.
+LaTeX Info: Redefining \% on input line 273.
 [18] (images/src/Ejercicio2/c/Rojo.java) (images/src/Ejercicio2/c/Amarillo.java
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
 [19]) (images/src/Ejercicio2/c/Verde.java)
-LaTeX Info: Redefining \. on input line 287.
-LaTeX Info: Redefining \% on input line 287.
+LaTeX Info: Redefining \. on input line 288.
+LaTeX Info: Redefining \% on input line 288.
  [20]
 <images/modelo5.png, id=721, 1164.35pt x 700.6175pt>
 File: images/modelo5.png Graphic file (type png)
 <use images/modelo5.png>
-Package pdftex.def Info: images/modelo5.png  used on input line 292.
+Package pdftex.def Info: images/modelo5.png  used on input line 293.
 (pdftex.def)             Requested size: 503.9978pt x 303.25877pt.
 
 (images/src/Ejercicio3/Email.java
@@ -602,31 +602,31 @@ LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
  [24])
 (images/src/Ejercicio3/Priority.java)
-Overfull \hbox (26.51439pt too wide) in paragraph at lines 321--322
+Overfull \hbox (26.51439pt too wide) in paragraph at lines 322--323
 []\OT1/lmr/m/n/10.95 Decorator: []$\OT1/lmtt/m/n/10.95 (https : / / refactoring
  . guru / es / design-[]patterns / decorator)$[] 
  []
 
 
-Overfull \hbox (13.8916pt too wide) in paragraph at lines 323--324
+Overfull \hbox (13.8916pt too wide) in paragraph at lines 324--325
 []\OT1/lmr/m/n/10.95 Strategy: []$\OT1/lmtt/m/n/10.95 (https : / / refactoring 
 . guru / es / design-[]patterns / strategy)$[] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 326.
-LaTeX Info: Redefining \. on input line 326.
-LaTeX Info: Redefining \% on input line 326.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 327.
+LaTeX Info: Redefining \. on input line 327.
+LaTeX Info: Redefining \% on input line 327.
 [25]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 326.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 327.
  (Memoria.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 326.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 326.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 327.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 327.
 Package rerunfilecheck Info: File `Memoria.out' has not changed.
 (rerunfilecheck)             Checksum: 796099CA4F63566999C26AA13E842710;1776.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 326.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 327.
  ) 
 Here is how much of TeX's memory you used:
  10069 strings out of 480790
@@ -650,7 +650,7 @@ C:/Users/Javier/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb>
 ><C:/Users/Javier/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pf
 b><C:/Users/Javier/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.p
 fb>
-Output written on Memoria.pdf (26 pages, 526317 bytes).
+Output written on Memoria.pdf (26 pages, 526516 bytes).
 PDF statistics:
  1059 PDF objects out of 1200 (max. 8388607)
  674 named destinations out of 1000 (max. 500000)
