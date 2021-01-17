@@ -5,7 +5,7 @@ public class Triestable implements Buffer {
     Estado estado;
 
     public Triestable() {
-        this.estado = new Rojo();
+        this.estado = Rojo.getInstance();
     }
 
     public Triestable(Estado estado) {
