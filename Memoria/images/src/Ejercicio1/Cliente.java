@@ -1,5 +1,5 @@
 package Ejercicio1;
 
-interface Cliente {
-
+public class Cliente{
+    //implementacion de la clase Cliente
 }

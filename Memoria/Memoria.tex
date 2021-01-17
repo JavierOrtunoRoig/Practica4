@@ -153,6 +153,9 @@ En cuanto a los métodos del biestable:
 \item estado() : devolverá un string correspondiente al estado en el que me encuentro.
 \end{itemize}
 
+Adicionalmente, hemos utilizado el patrón “Singleton” para reutilizar las instancias de los estados, ya que en otro caso, con la llamada a los métodos, estaríamos creando constantemente nuevos estados.
+
+Para aplicarlo, la clase contendrá un atributo estático correspondiente a una instancia de la misma clase. Por otro lado, encontramos un método getInstance(), que nos permitirá crear esta instancia estática si no se ha creado anteriormente (a través del constructor privado de la clase), o bien devolver dicha instancia ya creada.
 
 
 \subsubsection{Modelo}
@@ -213,6 +216,13 @@ En cuanto a los métodos del triestable:
 \item estado() : devuelve una cadena string que muestra el estado en el que se encuentra el triestable.
 \end{itemize}
 
+
+Adicionalmente, hemos utilizado el patrón “Singleton” para reutilizar las instancias de los estados, ya que en otro caso, con la llamada a los métodos, estaríamos creando constantemente nuevos estados.
+
+Para aplicarlo, la clase contendrá un atributo estático correspondiente a una instancia de la misma clase. Por otro lado, encontramos un método getInstance(), que nos permitirá crear esta instancia estática si no se ha creado anteriormente (a través del constructor privado de la clase), o bien devolver dicha instancia ya creada.
+
+
+
 \subsubsection{Modelo}
 
 \begin{figure}[H]
@@ -245,11 +255,27 @@ Dado que el pseudocódigo es muy parecido al código en Java se dejará solo el 
 \subsubsection{Explicación textual}
 Al igual que en el apartado anterior, utilizaremos el patrón de diseño ``Estado'' para implementar las clases ``Biestable'' y ``Triestable''.
 
+\vspace{0.25cm}
+
 En este caso, para implementar el cambio de ``Biestable'' a ``Triestable'', utilizaremos el patrón de diseño ``Decorador''. Con esto conseguiremos añadir la funcionalidad de la clase ``Triestable'' a nuestra clase ``Biestable''.
+
+\vspace{0.25cm}
 
 Para ello el ``Biestable'' contendrá un objeto que implementará la interfaz ``Buffer'', inicialmente a null. 
 
+\vspace{0.25cm}
+
 Este objeto se inicializará a un objeto de tipo ``Triestable'' tras la llamada al método cambio() del ``Biestable''. De esta manera, cuando se vuelvan a invocar a los métodos abrir(), cerrar() y estado(), serán los métodos del buffer (Triestable) los que se ejecuten, actuando el ``Biestable'' como un ``Triestable''.
+
+\vspace{0.25cm}
+
+Adicionalmente, hemos utilizado el patrón “Singleton” para reutilizar las instancias de los estados, ya que en otro caso, con la llamada a los métodos, estaríamos creando constantemente nuevos estados.
+
+\vspace{0.25cm}
+
+Para aplicarlo, la clase contendrá un atributo estático correspondiente a una instancia de la misma clase. Por otro lado, encontramos un método getInstance(), que nos permitirá crear esta instancia estática si no se ha creado anteriormente (a través del constructor privado de la clase), o bien devolver dicha instancia ya creada.
+
+
 
 \subsubsection{Modelo}
 
@@ -319,7 +345,7 @@ Proxy: \url{(https://refactoring.guru/es/design-patterns/proxy)}
 
 State: \url{(https://refactoring.guru/es/design-patterns/state)}
 
-Decorator: \url{(https://refactoring.guru/es/design-patterns/decorator)}
+Singleton: \url{(https://refactoring.guru/es/design-patterns/singleton)}
 
 Strategy: \url{(https://refactoring.guru/es/design-patterns/strategy)}
 

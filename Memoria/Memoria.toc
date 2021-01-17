@@ -10,19 +10,19 @@
 \contentsline {subsubsection}{\numberline {2.1.1}Explicación textual}{6}{subsubsection.2.1.1}%
 \contentsline {subsubsection}{\numberline {2.1.2}Modelo}{7}{subsubsection.2.1.2}%
 \contentsline {subsubsection}{\numberline {2.1.3}Pseudocódigo}{7}{subsubsection.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.4}Código}{7}{subsubsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.2}Apartado b}{9}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Explicación textual}{9}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Modelo}{11}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}Pseudocódigo}{11}{subsubsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.4}Código}{11}{subsubsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.3}Apartado c}{15}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Explicación textual}{15}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Modelo}{16}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Pseudocódigo}{16}{subsubsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.4}Código}{16}{subsubsection.2.3.4}%
-\contentsline {section}{\numberline {3}Ejercicio 3}{20}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Explicación textual}{20}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Modelo}{21}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Código}{21}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Patrones de diseño usados}{25}{section.4}%
+\contentsline {subsubsection}{\numberline {2.1.4}Código}{8}{subsubsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.2}Apartado b}{10}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Explicación textual}{10}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Modelo}{12}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Pseudocódigo}{12}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Código}{12}{subsubsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.3}Apartado c}{17}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Explicación textual}{17}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Modelo}{18}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Pseudocódigo}{18}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Código}{18}{subsubsection.2.3.4}%
+\contentsline {section}{\numberline {3}Ejercicio 3}{24}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Explicación textual}{24}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Modelo}{24}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Código}{24}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Patrones de diseño usados}{28}{section.4}%

@@ -1,9 +1,24 @@
 package Ejercicio2.c;
 
 public class Rojo extends Estado {
+
+    private static Rojo instance;
+
+    private Rojo() {
+
+    }
+
+    public static Rojo getInstance() {
+        if (instance == null) {
+            instance = new Rojo();
+            
+        }
+        return instance;
+    }
+
     @Override
     public void abrir(Buffer buffer) {
-        buffer.setEstado(new Verde());
+        buffer.setEstado(Verde.getInstance());
     }
 
     @Override

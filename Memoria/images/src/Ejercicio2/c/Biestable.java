@@ -6,7 +6,7 @@ public class Biestable implements Buffer {
     Buffer buffer;
 
     public Biestable() {
-        this.estado = new Rojo();
+        this.estado = Rojo.getInstance();
         this.buffer = null;
     }
 
@@ -38,5 +38,5 @@ public class Biestable implements Buffer {
         }
     }
 
-    public void cambio() { this.buffer = new Triestable(new Amarillo()); }
+    public void cambio() { this.buffer = new Triestable(Amarillo.getInstance()); }
 }
