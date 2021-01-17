@@ -5,7 +5,7 @@ public class Biestable {
     Estado estado;
 
     public Biestable() {
-        this.estado = new Rojo();
+        this.estado = Rojo.getInstance();
     }
 
     public void abrir() {

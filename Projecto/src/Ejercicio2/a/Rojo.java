@@ -1,10 +1,24 @@
 package Ejercicio2.a;
 
-public class Rojo extends Estado{
+public class Rojo extends Estado {
+
+    private static Rojo instance;
+
+    private Rojo() {
+
+    }
+
+    public static Rojo getInstance() {
+        if (instance == null) {
+            instance = new Rojo();
+            
+        }
+        return instance;
+    }
     
     @Override
     public void abrir(Biestable biestable) {
-        biestable.setEstado(new Verde());
+        biestable.setEstado(Verde.getInstance());
     }
 
     @Override

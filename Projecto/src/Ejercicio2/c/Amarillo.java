@@ -1,12 +1,27 @@
 package Ejercicio2.c;
 
 public class Amarillo extends Estado {
+    
+    private static Amarillo instance;
+
+    private Amarillo() {
+
+    }
+
+    public static Amarillo getInstance() {
+        if (instance == null) {
+            instance = new Amarillo();
+        }
+        return instance;
+    }
+
+
     @Override
     public void abrir(Buffer buffer) {
         if (buffer instanceof Biestable) {
             throw new RuntimeException("Un biestable no puede estar en el estado amarillo");
         } else {
-            buffer.setEstado(new Verde());
+            buffer.setEstado(Verde.getInstance());
         }
     }
 
@@ -15,7 +30,7 @@ public class Amarillo extends Estado {
         if (buffer instanceof Biestable) {
             throw new RuntimeException("Un biestable no puede estar en el estado amarillo");
         } else {
-            buffer.setEstado(new Rojo());
+            buffer.setEstado(Rojo.getInstance());
         }
     }
 
